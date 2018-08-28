@@ -11,7 +11,7 @@ const Config = {
   'tokenEndpoint': 'https://sso.connect.pingidentity.com/sso/as/token.oauth2',
   'clientId': 'db6641f4-dac2-4e05-85ae-5e5903e4cbac',
   'adapterId': 'htmlform',
-  'redirectUri': 'https://localhost:3000/authentication/callback',
+  'redirectUri': 'https://pingone-oidc-spa-build.s3-website-us-west-1.amazonaws.com//authentication/callback',
   'logoutEndpoint': 'https://sso.connect.pingidentity.com/sso/initslo',
   'scopes': 'openid%20profile'
 };
